@@ -1,0 +1,27 @@
+{
+  "name": "reddit-cookeville",
+  "version": "1.0.0",
+  "description": "Reddit Connector for r/cookeville Civic Engagement Analysis",
+  "baseUrl": "https://oauth.reddit.com",
+  "endpoints": {
+    "subredditPosts": "/r/cookeville/new",
+    "postComments": "/r/cookeville/comments/{post_id}",
+    "userComments": "/user/{username}/comments"
+  },
+  "apiCredentials": {
+    "clientId": "YOUR_REDDIT_CLIENT_ID",
+    "clientSecret": "YOUR_REDDIT_CLIENT_SECRET",
+    "refreshToken": "YOUR_REDDIT_REFRESH_TOKEN"
+  },
+  "dataCategories": [
+    "community_post",
+    "discussion_comment",
+    "user_profile_interaction"
+  ],
+  "extraction": {
+    "format": "JSON",
+    "authMethod": "OAUTH2",
+    "rateLimit": 60,
+    "maxPostsPerRequest": 100
+  }
+}
