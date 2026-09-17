@@ -10,6 +10,7 @@
     "./lib/reddit-cookeville/types": "./lib/reddit-cookeville/types.ts",
     "./lib/reddit-cookeville/index": "./lib/reddit-cookeville/index.ts",
     "./lib/reddit-cookeville/mapper": "./lib/reddit-cookeville/mapper.ts",
+"./lib/reddit-cookeville/mock-data": "./lib/reddit-cookeville/mock-data.ts",
     "./lib/reddit-cookeville/scraper": "./lib/reddit-cookeville/scraper.ts"
   },
   "scripts": {
